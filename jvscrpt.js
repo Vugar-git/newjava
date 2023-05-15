@@ -116,8 +116,6 @@
 // }
 // console.log(sum)
 
-
-
 // let number1 = Number(prompt("birinci ededi daxil edin"));
 // let number2 = Number(prompt("ikinci ededi daxil edin"));
 
@@ -128,8 +126,110 @@
 
 // console.log(sum);
 
-
 // for (let i=1 ; i<10; i++){
 //   console.log(i);
 // }
 
+// let numberOfFilms = Number(prompt("сколько фильмов вы уже смотрели?"));
+// let personalMovieDB = {
+//   count: numberOfFilms,
+//   movies: {},
+//   actors: {},
+//   genres: [],
+//   privat: false,
+// };
+// let question1 = prompt("Один из последних просмотренный фильмов?");
+// let question2 = prompt("На сколько оцените его?");
+
+// personalMovieDB.movies[question1]=[question2]
+
+// console.log(personalMovieDB);
+
+// for (let i = 5; i <= 10; i++) {
+//   console.log(i);
+// }
+
+
+
+// for (let i = 20; i >= 10; i--) {
+//   if (i === 13) {
+//     break;
+//   }
+//   console.log(i);
+// }
+
+
+
+
+// for (let i = 1; i <= 10; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// let i=2;
+
+//  while (i <= 16) {
+//    if (i % 2 === 0) {
+//      i++;
+//      continue;
+//    } else {
+//      console.log(i);
+//    }
+//    i++;
+//  }
+
+
+//  const arrayOfNumbers = [];
+
+//  for (let i = 5; i < 11; i++) {
+//    arrayOfNumbers[i - 5] = i;
+//  }
+
+//  console.log(arrayOfNumbers);
+//  return arrayOfNumbers;
+
+// const rows = 5;
+// let pattern = "";
+
+// for (let i = 0; i < rows; i++) {
+//   let row = "";
+
+//   // Add spaces before the asterisks
+//   for (let j = 0; j < rows - i - 1; j++) {
+//     row += " ";
+//   }
+
+//   // Add asterisks for each row
+//   for (let k = 0; k < 2 * i + 1; k++) {
+//     row += "*";
+//   }
+
+//   pattern += row + "\n";
+// }
+
+// console.log(pattern);
+
+
+// const usdcurr = 1.7;
+// const eurocurr = 1.84;
+
+// function convert (amount,curr) {
+//   console.log(curr*amount);
+// }
+
+// convert(1,usdcurr)
+
+
+function sayHello(name) {
+  console.log("Hello " + name);
+}
+
+sayHello("Vugar");
+
+
+function qonsu(num) {
+  return[num-1, num , num+1];
+    
+}
+console.log(qonsu(5));
